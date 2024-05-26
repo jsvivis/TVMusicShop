@@ -1,0 +1,29 @@
+/* instalar a extensão css modules */
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: rgb(245, 245, 239);
+    background-color: var(--main-color);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+    font-weight: 450;
+}
+
+.linkmenu:hover{
+    color: var(--light-color);
+    cursor: pointer;
+}
+.linkmenu{
+    text-decoration: none;
+    color: #fff;
+}
