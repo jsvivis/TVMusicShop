@@ -1,0 +1,36 @@
+.associados_container {
+    width: 100%;
+    padding: 0;
+    margin-top: 9em; /* Margem para distanciar os elementos do header */
+}
+
+.associados_container h1{
+    text-align: center;
+}
+
+.associados_disco, .associados_spotify{
+    display: flex;
+    align-items: center;
+    padding: 0 8em;
+}
+
+.associados_button{
+    width: 7em;
+    padding: 12px;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.associados_button:hover{
+    cursor: pointer;
+}
+
+.associados_spotify{
+    margin-bottom: 4em;
+}
+.associados_spotify img{
+    width: 16em;
+    padding: 0 5em 0 6em;
+}

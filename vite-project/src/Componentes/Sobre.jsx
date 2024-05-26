@@ -5,7 +5,7 @@ export function Sobre(props) {
     <div className={styles.sobre_container}>
       <div className={styles.sobre_background}>
         <div className={styles.sobre_content}>
-          <img src='https://media.istockphoto.com/id/639112364/pt/foto/fun-at-disco.webp?b=1&s=170667a&w=0&k=20&c=a_XS5AG0n5LxGaoexTDY2m5yOLG030ueA-aS7W_1aHs='></img>
+          <img src='https://media.istockphoto.com/id/639112364/pt/foto/fun-at-disco.webp?b=1&s=170667a&w=0&k=20&c=a_XS5AG0n5LxGaoexTDY2m5yOLG030ueA-aS7W_1aHs='/>
           <div className={styles.sobre_texto}>
             <h1>{props.nomePagina}</h1>
             <span>Loja no ramo musical de Minas Gerais,

@@ -1,7 +1,7 @@
 
 export function Home(props) {
   return (
-<div>
+    <div>
       <h1>{props.nomePagina}</h1>
 
     </div>

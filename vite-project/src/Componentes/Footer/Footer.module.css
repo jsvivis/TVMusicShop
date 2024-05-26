@@ -41,7 +41,13 @@
 
 .infos_content{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+}
+
+.infos_content span{
+    margin: 0 2em 0 1em;
 }
 
 .footer_developers{

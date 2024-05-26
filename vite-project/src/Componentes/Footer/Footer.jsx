@@ -10,27 +10,23 @@ export function Footer(props) {
             <div className={styles.infos_content}>
               <span>
                 Telefone:
-                <a href='(32)4004-4004'> (32) 4004-4004 </a>
+                <a href='(32)4004-4004'> (32) 4004-4004 |</a>
                 <a href='(32)94004-4004'> (32) 9 4004-4004 </a>
-              </span> 
-              <br/>
-              <span>
+                <br/>
                 Endereço:
-                Rua das Américas, 22, Centro - Cataguases - Mg / 36774-000
-              </span>
+                Rua das Américas, 22, Centro - 
+                <br/>
+                Cataguases | Mg - 36774-000
+              </span> 
               <br/>
               <span>
                 Instagram: 
                 <a href=''> @t&v_musicshop</a>
-              </span>
-              <br/>
-              <span>
+                <br/>
                 Facebook: 
                 <a href=''> T&V Music Shop</a>
-              </span>
-              <br/>
-              <span>
-              Email: 
+                <br/>
+                Email: 
                 <a href=''> tv_musicshop@gmail.com</a>
               </span>
             </div>

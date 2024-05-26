@@ -7,6 +7,7 @@ import { Footer } from './Componentes/Footer/Footer';
 import { Header } from './Componentes/Header/Header';
 import { Sobre } from './Componentes/Sobre';
 import { Produto } from './Componentes/Produto';
+import { Associados } from './Componentes/Associados'
 import './Styles.global.css';
 
 /* Definição do componente funcional 'App' ("pai")*/
@@ -15,9 +16,10 @@ function App() {
     /* Define um contêiner para os componentes da aplicação */
     <div>
       <Header />
-        <Routes>
+      <Routes>
         <Route path='/' element={<Home nomePagina='Pagina Inicial' />} />
         <Route path='/produto' element={<Produto nomePagina='Nossos Produtos' />} />
+        <Route path='/associados' element={<Associados nomePagina='Associados' />} />
         <Route path='/sobre' element={<Sobre nomePagina='Sobre' />} />
       </Routes>
       <Footer nomeFooter='Desenvolvido por: Tarsila Barros Fritz e Viviane Santos' />
