@@ -15,7 +15,7 @@ function App() {
     /* Define um contêiner para os componentes da aplicação */
     <div>
       <Header />
-      <Routes>
+        <Routes>
         <Route path='/' element={<Home nomePagina='Pagina Inicial' />} />
         <Route path='/produto' element={<Produto nomePagina='Nossos Produtos' />} />
         <Route path='/sobre' element={<Sobre nomePagina='Sobre' />} />
