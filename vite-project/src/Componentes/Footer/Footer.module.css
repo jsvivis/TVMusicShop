@@ -55,3 +55,13 @@
     font-weight: 350;
     margin: 2em 0 1em 0;
 }
+
+.devs_contact{
+    display: flex;
+    justify-content: center;
+    gap: 0.2em;
+}
+
+.devs_contact img{
+    width: 2em;
+}

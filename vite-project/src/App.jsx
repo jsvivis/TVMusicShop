@@ -18,11 +18,11 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home nomePagina='' />} />
-        <Route path='/produto' element={<Produto nomePagina='Nossos Produtos' />} />
+        <Route path='/produto' element={<Produto nomePagina='Produtos' />} />
         <Route path='/associados' element={<Associados nomePagina='Associados' />} />
         <Route path='/sobre' element={<Sobre nomePagina='Sobre' />} />
       </Routes>
-      <Footer nomeFooter='Desenvolvido por: Tarsila Barros Fritz e Viviane Santos' />
+      <Footer nomeFooter='Desenvolvido por: Tarsila Fritz e Viviane Santos' />
     </div>
   );
 }

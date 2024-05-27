@@ -9,3 +9,9 @@
 body{
     background-color: rgb(236, 233, 238);
 }
+
+p::selection, span::selection, a::selection, h1::selection, h2::selection, h5::selection{
+    background: purple;
+    color: white; /* Opcional: muda a cor do texto selecionado */
+  }
+  

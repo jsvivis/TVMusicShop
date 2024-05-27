@@ -1,4 +1,6 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
+import github from '../../assets/imgs/github.png';
+import linkedin from '../../assets/imgs/linkedin.png';
 
 export function Footer(props) {
   return(
@@ -33,6 +35,20 @@ export function Footer(props) {
           </div>
           <hr/>
           <p className={styles.footer_developers}>{props.nomeFooter}</p>
+          <div className={styles.devs_contact}>
+            <a href='https://github.com/tarsibfritz' target='_blank'>
+              <img src={github} alt='Github Tarsila Fritz'/> 
+            </a>
+            <a href='https://github.com/jsvivis' target='_blank'>
+              <img src={github} alt='Github Viviane Santos'/> 
+            </a>
+            <a href='https://www.linkedin.com/in/tarsilafritz/' target='_blank'>
+              <img src={linkedin} alt='Linkedin Tarsila Fritz'/> 
+            </a>  
+            <a href='https://www.linkedin.com/in/viviane-santos-a6a69127b/' target='_blank'>
+              <img src={linkedin} alt='Linkedin Viviane Santos'/> 
+            </a>  
+          </div>
         </div>
       </footer>
     </div>

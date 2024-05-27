@@ -1,7 +1,7 @@
 .associados_container {
     width: 100%;
     padding: 0;
-    margin-top: 9em; /* Margem para distanciar os elementos do header */
+    margin-top: 9em;
 }
 
 .associados_container h1{
@@ -21,10 +21,13 @@
     border-radius: 2em;
     color: #fff;
     background-color: var(--main-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .associados_button:hover{
     cursor: pointer;
+    background-color: var(--back-color); 
+    color: #fff;
 }
 
 .associados_spotify{

@@ -19,11 +19,14 @@
     font-weight: 450;
 }
 
-.linkmenu:hover{
-    color: var(--light-color);
-    cursor: pointer;
-}
 .linkmenu{
     text-decoration: none;
     color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.linkmenu:hover{
+    color: var(--light-color);
+    cursor: pointer;
 }
