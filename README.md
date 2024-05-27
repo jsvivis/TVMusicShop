@@ -6,5 +6,11 @@ A T&V Music Shop foi um projeto desenvolvido para o curso de Programador FullSta
 ![image](https://github.com/tarsibfritz/TVMusicShop/assets/157611569/b7fc3005-7c16-4023-894f-62b8a98ca6de)
 ![image](https://github.com/tarsibfritz/TVMusicShop/assets/157611569/727d6b10-19b0-44b6-8117-8e2b96518f85)
 
-## Instalação
+--------------
+
+## 🚀 Tecnologias
+- HTML & CSS
+- React
+
+## 📥 Instalação
 Após clonar o projeto certifique-se de instalar as dependências do npm install e do npm react-router-dom para evitar qualquer problema na inicialização do projeto.
