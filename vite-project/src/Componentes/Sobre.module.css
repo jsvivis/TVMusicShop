@@ -12,7 +12,6 @@
 .sobre_content{
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
     align-items: center;
     margin: 0 10em 0 10em;
     padding: 1.2em;
@@ -41,7 +40,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    margin: 3em 1em;
+    margin: 3em 0 3em 0;
 }
 
 .box_01, .box_02, .box_03{
@@ -75,4 +74,8 @@
 
 .historia_container h2{
     margin-bottom: 0.5em;
+}
+
+.historia_container b{
+    color: var(--main-color);
 }

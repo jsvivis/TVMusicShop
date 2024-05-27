@@ -9,7 +9,7 @@ export function Sobre(props) {
           <div className={styles.sobre_texto}>
             <h1>{props.nomePagina}</h1>
             <span>Loja no ramo musical de Minas Gerais,
-            fundada em 2024, com mais 50 empresas associadas.</span>
+            fundada em 2024, com mais de 50 empresas associadas.</span>
             <span> A T&V Music Shop apoia o desenvolvimento dos empreendedores e músicos em geral,
             com produtos e serviços que auxiliam as atividades do dia a dia 
             de empresas, músicos e usuários.</span>
@@ -21,21 +21,21 @@ export function Sobre(props) {
           <h2>Quem somos?</h2>
           <p>Somos uma loja online e física com uma das maiores 
             representatividades do interior de Minas Gerais.
-            Visamos qualidade e satisfação dos produtos e serviços prestados as
-            empresas, musicos e usuários de Minas Gerais e todo o mundo.</p>
+            Visamos qualidade e satisfação dos produtos e serviços prestados às
+            empresas, músicos e usuários de Minas Gerais e de todo o mundo.</p>
         </div>
         <div className={styles.box_02}>
           <h2>O que fazemos?</h2>
-          <p>Nós da T&V Music Shop apoiamos o desenvolvimento das empresas associadas
-            com 3 pilares de soluções: Gerenciamento, Organização,  
-            e Prestação de Serviços em Aluguéis de Equipamentos para Eventos.</p>
+          <p>Nós, da T&V Music Shop, apoiamos o desenvolvimento das empresas associadas
+            com três pilares de soluções: Gerenciamento, Organização,  
+            e Prestação de Serviços em Aluguéis de Equipamentos para Eventos. Além disso, vendemos instrumentos musicais e acessórios.</p>
         </div>
         <div className={styles.box_03}>
           <h2>Como se associar</h2>
           <p>Fale com um de nossos consultores:
-            tv_musicshop@gmail.com | (32) 4004-4004 /(32) 9 4004-4004 , ou
+            tv_musicshop@gmail.com | (32) 4004-4004 / (32) 9 4004-4004, ou
             venha nos fazer uma visita:
-            Rua das Américas, 22, Centro - Cataguases - Mg / 36774-000</p>
+            Rua das Américas, 22, Centro - Cataguases - MG / 36774-000</p>
         </div>
       </div>
       <div className={styles.historia_background}>
@@ -44,22 +44,21 @@ export function Sobre(props) {
           <span>
           Tudo começou com a paixão pela música.
           Tarsila Barros e Viviane Santos, mulheres apaixonadas 
-          por músicas resolveram que 
-          estava na hora de compartilhar com o mundo seus sonhos e todo essa 
-          conexão que a música trás entre as pessoas. 
-          Pois a música é sem sombra de dúvidas o maior 
-          meio de comunicação mundial, onde rompe todas as 
-          fronteiras e barreiras das linguagens, culturas e etinias.
+          por música, resolveram que 
+          estava na hora de compartilhar com o mundo seus sonhos e toda essa 
+          conexão que a música traz entre as pessoas. 
+          Pois a música é, sem sombra de dúvidas, o maior 
+          meio de comunicação mundial, rompendo todas as 
+          fronteiras e barreiras das linguagens, culturas e etnias.
           <br/>
-          <b>Com a música falamos a mesma língua! </b>
-          E desde então se deu início a T&V Music Shop, 
+          <b>Com a música, falamos a mesma língua! </b>
+          E desde então, deu-se início à T&V Music Shop, 
           onde o mundo não tem limite para o som.
           Estamos no mercado oferecendo os melhores
-          produtos e serviços relacionados a música e eventos.
+          produtos e serviços relacionados à música e eventos.
           </span>
         </div>
       </div>
     </div>
-
   )
 }
