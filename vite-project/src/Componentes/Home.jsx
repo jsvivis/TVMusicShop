@@ -1,8 +1,9 @@
+import styles from './Home.module.css'
+
 
 export function Home(props) {
   return (
-    <div>
-      <h1>{props.nomePagina}</h1>
+    <div className={styles.home_container}>
 
     </div>
   )

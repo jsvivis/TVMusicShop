@@ -57,7 +57,7 @@ export function Sobre(props) {
           Estamos no mercado oferecendo os melhores
           produtos e serviços relacionados a música e eventos.
           </span>
-      </div>
+        </div>
       </div>
     </div>
 

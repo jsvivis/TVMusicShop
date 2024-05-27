@@ -17,7 +17,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path='/' element={<Home nomePagina='Pagina Inicial' />} />
+        <Route path='/' element={<Home nomePagina='' />} />
         <Route path='/produto' element={<Produto nomePagina='Nossos Produtos' />} />
         <Route path='/associados' element={<Associados nomePagina='Associados' />} />
         <Route path='/sobre' element={<Sobre nomePagina='Sobre' />} />
