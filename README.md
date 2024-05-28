@@ -6,4 +6,9 @@ A T&V Music Shop foi um projeto desenvolvido para o curso de Programador FullSta
 ![image](https://github.com/tarsibfritz/TVMusicShop/assets/157611569/b7fc3005-7c16-4023-894f-62b8a98ca6de)
 ![image](https://github.com/tarsibfritz/TVMusicShop/assets/157611569/727d6b10-19b0-44b6-8117-8e2b96518f85)
 
---------------
+-------------
+## 📥 Instalação
+- Após clonar o repositório digite no terminal os seguintes códigos para poder inicializar a aplicação:
+   - cd vite-project
+   - npm install react-router-dom
+   - npm run dev
