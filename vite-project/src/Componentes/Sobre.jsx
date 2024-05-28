@@ -55,7 +55,7 @@ export function Sobre(props) {
           E desde então, deu-se início à T&V Music Shop, 
           onde o mundo não tem limite para o som.
           Estamos no mercado oferecendo os melhores
-          produtos e serviços relacionados à música e eventos.
+          produtos e serviços relacionados à música.
           </span>
         </div>
       </div>
